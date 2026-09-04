@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior High Calendar</title>
+    <link rel="stylesheet" href="main.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body class="shscalendar">
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+            <a href="main.html">Home</a>
+            <a href="seniorhigh.html">SHS</a>
+            <a href="college.html">College</a>
+            <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+
+        <nav class="navbar">
+            <ul>
+            <a href="index.html">Log Out</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background"></div>
+        <div class="container2">
+            <div class="content2">
+                <div class="logo-wrapper2">
+                    <img src="aicslogo.png" alt="AICS Logo" width="90" height="90">
+                        <div class="text-sci2">
+                            <h2>SENIOR HIGH CALENDAR</h2>
+                            <p>Asian Institute of Computer Studies</p>
+                        </div>
+                </div>
+            </div>
+        
+
+        <div class="shs-calendar">
+            <div class="calendar-header">
+                <div class="nav-buttons">
+                    <button class="nav-btn" id="prev-month"><i class='bx bx-chevron-left' style='color:white'></i></button>
+                    <button class="nav-btn" id="next-month"><i class='bx bx-chevron-right' style='color:white'></i></button>
+                </div>
+                <div class="month-year" id="month-year">August 2026</div>
+            </div>
+
+            <div class="weekdays">
+                <div class="weekday">Sun</div>
+                <div class="weekday">Mon</div>
+                <div class="weekday">Tue</div>
+                <div class="weekday">Wed</div>
+                <div class="weekday">Thu</div>
+                <div class="weekday">Fri</div>
+                <div class="weekday">Sat</div>
+            </div>
+
+            <div class="days" id="days"></div>
+
+            <div class="calendar-footer">
+                <button class="today-btn" id="today-btn"><i class='bx bxs-calendar-star'></i>Today</button>
+                <div class="event-indicator">
+                    <i class='bx bxs-circle' style='font-size: 0.6rem'></i>
+                    <span>Has Events</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-panel" id="event-panel">
+            <div class="event-header">
+                <div class="event-date" id="event-date">Select Date</div>
+                <i class='bx bxs-calendar-star' style='color: #0e4a7b'></i>
+            </div>
+            <div class="event-list" id="event-list">
+                <div class="no-events">Select a date with events to view them here.</div>
+            </div>
+        </div>
+        </div>
+
+    <script src="shs.js"></script>
+</body>
+</html>
