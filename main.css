@@ -315,7 +315,7 @@ body {
 }
 
 .next1, .next2 {
-    position: absolute;
+    position: relative;
     top: 255px;
     left: 40%;
     width: 20%;
