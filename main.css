@@ -554,7 +554,7 @@ body {
 
 .event-panel, .event-panel2 {
     position: absolute;
-    top: 260px;
+    top: 270px;
     background: linear-gradient(to right, #d6d4c9, #909f97);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -567,11 +567,11 @@ body {
 }
 
 .event-panel {
-    right: 17%;
+    right: 20%;
 }
 
 .event-panel2 {
-    left: 17%;
+    left: 20%;
 }
 
 @keyframes pageFade {
