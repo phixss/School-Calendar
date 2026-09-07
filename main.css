@@ -346,7 +346,7 @@ body {
 }
 
 .shs-calendar, .college-calendar {
-    position: absolute;
+    position: fixed;
     top: 150px;
     background: linear-gradient(to right, #d6d4c9, #909f97);
     border-radius: 20px;
