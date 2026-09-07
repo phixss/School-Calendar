@@ -347,7 +347,7 @@ body {
 
 .shs-calendar, .college-calendar {
     position: fixed;
-    top: 150px;
+    top: 180px;
     background: linear-gradient(to right, #d6d4c9, #909f97);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -360,11 +360,11 @@ body {
 }
 
 .shs-calendar {
-    left: 24%;
+    left: 27%;
 }
 
 .college-calendar {
-    right: 24%;
+    right: 27%;
 }
 
 .shs-calendar:hover, .college-calendar:hover {
