@@ -315,9 +315,10 @@ body {
 }
 
 .next1, .next2 {
-    position: fixed;
-    top: 285px;
-    left: 40%;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 20%;
     height: 11%;
     padding: 8px;
@@ -334,7 +335,7 @@ body {
 }
 
 .next1:hover, .next2:hover {
-  transform: scale(1.2);
+  transform: translateX(-50%) scale(1.2);
   opacity: 1;
 }
 
