@@ -316,7 +316,7 @@ body {
 
 .next1, .next2 {
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     left: 50%;
     transform: translateX(-50%);
     width: 20%;
